@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from Git repository
-                git branch: 'main', url: 'https://github.com/your-repo/java-app.git'
+                git branch: 'main', url: 'https://github.com/manavanand2812/devops_model.git'
             }
         }
         
